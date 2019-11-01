@@ -1,0 +1,297 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%--------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%--------------------------------------------
+
+\par{\centering{\Huge Wuyang \textsc{Yuan}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{l}
+\textsc{Place and Date of Birth:}  Nanchang, Jiangxi, China | 5 Jul 1991 \\
+\textsc{Address:}  No 3 Shangyuancun Beijing Jiaotong University, Beijing, P.R.China \\
+\textsc{Phone:}  (86) 13401152773 \\
+\textsc{Email:}  \href{mailto:yuanwuyang@foxmail.com}{yuanwuyang@foxmail.com}\\
+\textsc{Github:} \url{https://github.com/wyyuan} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+%\section{Work Experience}
+%
+%\begin{tabular}{r|p{11cm}}
+%\emph{Current} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\
+%\textsc{Mar 2012} & \emph{Commodities Structured Trading}\\ 
+%& \footnotesize{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (\textit{ags, oils, precious} and \textit{base metals}), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.}\\
+%\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+%\textsc{Jul 2010-Oct 2011} & Summer Intern at \textsc{Intech Inc}, Chicago \emph{}\\
+%& \footnotesize{Received pre-placed offer from the Exotics Trading Desk as a result of very positive review. Rated ``\emph{truly distinctive}'' for Analytical Skills and Teamwork.}\\
+%\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+%\textsc{Jan-Mar 2011} & Computer Technician at \textsc{Buy More}, Burbank \emph{}\\
+%& \footnotesize{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+
+\textsc{Sept} 2014 & Studying for a PhD in Traffic and Transportation Planning and Management,\\
+-  & \textbf{Beijing Jiaotong University}, Beijing\\
+%& 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
+\textsc{Now} & \small Advisor: Prof. Lei \textsc{Nie}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{Sept} 2012 & Master Degree in Traffic Engineering,\\
+-  & \textbf{Beijing Jiaotong University}, Beijing\\
+%& 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
+\textsc{Jul} 2014 & Thesis: Research and Implementation of Earthquake Emergency Response\\
+& System in Normal Speed Railway Based on GIS | \small Advisor: Prof. Futian \textsc{Wang}\\
+&\normalsize \textsc{Gpa}: 3.3/4.0 \\
+&\\
+
+%------------------------------------------------
+
+\textsc{Sept} 2008 & Undergraduate Degree in Traffic and Transportation (Railway Transportation), \\
+- &  \normalsize\textbf{Beijing Jiaotong University}, Beijing\\
+\textsc{Jul} 2012 
+& Thesis: The Design and Implementation of an Equipment Management \\
+& Information System in Railway Freight Yard (Private Siding) based on \\ 
+& GIS | \small Advisor: Prof. Futian \textsc{Wang}\\
+&\normalsize \textsc{Gpa}: 3.4/4.0 \\
+&\\
+
+%------------------------------------------------
+
+%\textsc{Fall} 2008 & Exchange Semester at \textbf{University of Southern California}, Los Angeles\\
+%& \textsc{Gpa}: 8.0/9.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+%&\\
+
+%------------------------------------------------
+
+%\textsc{July} 2006& \textbf{Liceo Classico ``E. Duni''}, Matera | Final Grade: 100/100
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+%\section{Scholarships and Certificates}
+%
+%% 1、 本科阶段获得北京交通大学2008-2009、2009-2010学年“三等奖学金”；
+%% 2、 研究生阶段获得北京交通大学2012-1013学年“二等奖学金”、2012-1013学年“三等奖学金”；
+%
+%\begin{tabular}{rl}
+%
+%Scholarships: & The Third Prize Scholarship: \textsc{2013-2014, 2009-2010, 2008-2009} \\
+% 			  & The Second Prize Scholarship \textsc{2012-2013} \\
+%Certificates: & 六级
+ 
+
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+%
+%\begin{tabular}{rl}
+%
+%\textsc{English:} & Basic Knowledge\\
+%
+%\textsc{Chinese:} & Mother tongue\\
+%
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+%\section{COMPUTER SKILLS}
+%\begin{tabular}{rl}
+%& Writing Tools:  {\fb \LaTeX}, Markdown \\
+%& Programming Languages: \textsc{C\#}, Java, VB, Matlab\\
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS 
+%----------------------------------------------------------------------------------------
+
+\section{Research Interests}
+
+\begin{tabular}{l}
+Railway Passenger Transportation: Line Planning, Timetabling, Rolling Stocks Scheduling.\\
+
+Revenue Management: Seat Inventory Control, Dynamic Pricing.
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PAPERS
+%----------------------------------------------------------------------------------------
+
+\section{Papers}
+
+\begin{itemize}
+\item Yuan, W., et al., {A dynamic bid price approach for the seat inventory control problem in railway networks with consideration of passenger transfer}. {PLOS ONE}, 2018. {13}({8}).
+\item Wuyang Yuan, Lei Nie, Xin Wu. A dynamic bid price approach for the seat inventory control problem in high-speed railway networks considering passenger transfer service, 97th TRB Annual Meeting, 2018.
+\item Wuyang Yuan, Lei Nie, Huiling Fu, Xin Wu, Yu Ke. simulation-based method for seat inventory control optimization under heterogeneous customer behavior: a case study of china railway, The 18th COTA International Conference,2018.
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+\begin{tabular}{l}
+Writing Tools:  {\fb \LaTeX}, Markdown, MS Office \\
+Project Management Tools: Git \\
+Programming Languages: \textsc{C\#}, Java, VB, Matlab, Python\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Programming Experiences
+%----------------------------------------------------------------------------------------
+\section{Project Experiences}
+
+\begin{tabular}{ll}
+2011-2012 & Marketing Management Decision Support System, China Railway Guangzhou\\
+		  & Group Co.,Ltd.\\
+2012-2013 & Infrastructure Management Information System, Shenshuo Railway Company\\
+2013-2014 & Earthquake Emergency Management Information System, China Railway\\
+		  & Information Technology Center \\
+2014-2015 & EMU Management Information System, China Railway Corporation\\
+2015-2016 & Line Planning Evaluation System, China Railway Guangzhou Group Co.,Ltd.\\
+2016-2017 & Seat Inventory Control Decision Support System, China Railway Nanning\\
+          & Group Co.,Ltd.\\
+
+\end{tabular}
+%----------------------------------------------------------------------------------------
+%	GRADE TABLES
+%----------------------------------------------------------------------------------------
+
+%\par{\centering\Large \hypertarget{grds}{Master of Science in \textsc{Finance}}\par}\large{\centering Grades\par}\normalsize
+%
+%\begin{center}
+%\begin{tabular}{lcc}
+%\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade}&\textsc{Credit Hrs}\\ \hline
+%Corporate Finance (Valuation) & 25 & 6\\
+%Financial Statement Analysis & 28 & 6\\
+%Statistics & 27 & 6\\
+%Theory of Finance & 26 & 6\\
+%Quantitative Methods for Finance & 30 & 6\\
+%Econometrics & 24 & 6\\
+%Derivatives & 31 & 6\\
+%Management of Financial and Insurance Companies & 30 & 6\\
+%Business Law & 31 & 6\\
+%Investment Banking	& 28 & 6\\ \\		
+%Behavioral Models for Economics and Finance	 & 29 & 6\\
+%Numerical Methods for Finance & 29 & 6\\
+%Advanced Derivatives & 30 & 6\\
+%Fixed Income (Advanced Methods) & 30 & 6\\ \\
+%English Language & 30 &	4\\
+%French Language & 31 &	4\\	
+%Internship & & 8\\		
+%Final Thesis & & 20\\	
+%& Total & 120\\\cline{2-3}
+%&\textsc{Gpa}&\textbf{8.0}
+%\end{tabular}
+%\end{center}
+%\bigskip
+%\hrule
+%\bigskip
+
+%------------------------------------------------
+
+%\bigskip
+%
+%\par{\centering\Large \hypertarget{grds_usc}{Exchange Program at \textsc{usc}, Los Angeles}\par}\large{\centering Grades\par}\normalsize
+%
+%\begin{center}
+%\begin{tabular}{lcc}
+%\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade} & \textsc{Grade Points}\\ 
+%\hline
+%Corporate Financial Strategy & A & 4\\
+%Derivatives & A & 4\\
+%Money, Credit, and Banking & A & 4\\
+%Business Strategy & A- & 3.5\\
+%& &\\\cline{2-3}
+%& \textsc{Gpa} & \textbf{3.875}
+%\end{tabular}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
